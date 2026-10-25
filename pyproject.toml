@@ -7,6 +7,10 @@ license = {text = "MIT"}
 requires-python = ">=3.10"
 authors = [{name = "denpadokei"}]
 keywords = ["mcp", "model-context-protocol", "web-search", "agent-reach", "exa", "jina-reader"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+]
 dependencies = [
     "mcp>=2,<3",
     "agent-reach @ git+https://github.com/Panniantong/Agent-Reach",

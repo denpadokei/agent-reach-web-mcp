@@ -1,5 +1,7 @@
 # agent-reach-web-mcp
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 [Agent Reach](https://github.com/Panniantong/Agent-Reach) の `web` チャネルを MCP サーバとして公開する、uvx で動かせる Web 検索 MCP サーバ。
 
 - **検索**: Exa の無料ホスト MCP（APIキー不要）
@@ -20,7 +22,7 @@
 # クローン内で（推奨）
 uvx --from . agent-reach-web-mcp
 
-# GitHub のプライベートリポジトリから直接（git の認証設定が必要）
+# GitHub のパブリックリポジトリから直接（認証不要）
 uvx --from git+https://github.com/denpadokei/agent-reach-web-mcp agent-reach-web-mcp
 ```
 
@@ -51,4 +53,4 @@ uv run agent-reach-web-mcp   # stdio MCP サーバとして起動
 
 ## ライセンス
 
-MIT（上游の Agent Reach も MIT）
+MIT（[LICENSE](LICENSE)）。上流の Agent Reach も MIT。
